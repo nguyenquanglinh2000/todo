@@ -3,6 +3,7 @@
     <div class="logo">
       <NuxtLogo />
       <todoBody />
+      <Footer />
     </div>
   </div>
 </template>

@@ -75,7 +75,6 @@ export default {
     }
   },
   created () {
-    console.log('create')
     this.$store.commit('GET_TODOS')
   },
   mounted () {
@@ -122,6 +121,7 @@ export default {
     updateTodos (payload) {
       this.$store.commit('UPDATE_TODOS', payload)
       this.indexChange = ''
+      this.update = ''
     }
   }
 }

@@ -8,6 +8,9 @@ const creteStore = () => {
       todos: []
     },
     actions: {
+      nuxtServerInit () {
+        console.log('Nuxt Server Init')
+      }
 
     },
     mutations: {
